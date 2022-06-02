@@ -12,7 +12,7 @@ import time
 
 # PARAMETERS
 K = 20      # k for k-nearest neighbour
-conformation = 1
+conformation = 2
 root            = "../A_tetrahedral_representation/example/IonicChannels/mscl/5ligand"
 
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-cd ./example/IonicChannels/mscl/5ligand/frame.001
+cd ./example/IonicChannels/mscl/5ligand/frame.002
 
 
 rm -rf ./ED
