@@ -616,9 +616,10 @@ void restartDebug()
 void cite()
 {
 	cout << endl;
-	cout << endl << INFO << "If you use NanoShaper please cite these works:";
+	cout << endl << INFO << "If you use NanoShaper and Chanalyzer please cite these works:";
 	cout << endl << CITE << "\tS. Decherchi, W. Rocchia, \"A general and Robust Ray-Casting-Based Algorithm for Triangulating Surfaces at the Nanoscale\"; PlosOne";
 	cout << endl << CITE << "\tlink: http://www.plosone.org/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pone.0059744";
+    cout << endl << CITE << "\tA. Raffo, L. Gagliardi, U. Fugacci, L. Sagresti, S. Grandinetti, G. Brancato, S. Biasotti, W. Rocchia, \"Chanalyzer: a computational geometry approach for the analysis of protein channel shape and dynamics\"; Frontiers in Molecular Biosciences (2022)";
 	cout << endl;
 }	
 
