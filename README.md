@@ -7,8 +7,9 @@ This repository contains the routines behind the paper [1]. The repository is or
 - Step C2: extraction of source and target points.
 - Step D:  centerline computation and geometry processing.
 
-A graphical abstract representing this pipelineis is given here:
-![Alt text](./chanalyzer-core.png?raw=true "Title")
+A graphical abstract representing this pipeline is given in the following figure (note that C1 and C2 are summarized as a single step C):
+
+![Alt text](./chanalyzer-core.png?raw=true "Chanalyzer-core")
 
 
 ### References
