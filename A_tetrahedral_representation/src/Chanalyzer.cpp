@@ -442,20 +442,20 @@ void Chanalyzer :: Edelsbrunner(Rt& reg_triang, Fixed_alpha_shape_3& alpha_shape
     //2) Saving the above-computed descriptors...
     std::ofstream fout;
 
-    fout.open("./ED/shape_descriptors/ED_volumes.txt");
-    for (int l = 0; l < volume_CCs.size(); l++)
-        fout << volume_CCs.at(l) << std::endl;
-    fout.close();
-
-    fout.open("./ED/shape_descriptors/ED_surface_areas.txt");
-    for (int l = 0; l < surface_CCs.size(); l++)
-        fout << surface_CCs.at(l) << std::endl;
-    fout.close();
-
-    fout.open("./ED/shape_descriptors/ED_compactness.txt");
-    for (int l = 0; l < compactness_CCs.size(); l++)
-        fout << compactness_CCs.at(l) << std::endl;
-    fout.close();
+//    fout.open("./ED/shape_descriptors/ED_volumes.txt");
+//    for (int l = 0; l < volume_CCs.size(); l++)
+//        fout << volume_CCs.at(l) << std::endl;
+//    fout.close();
+//
+//    fout.open("./ED/shape_descriptors/ED_surface_areas.txt");
+//    for (int l = 0; l < surface_CCs.size(); l++)
+//        fout << surface_CCs.at(l) << std::endl;
+//    fout.close();
+//
+//    fout.open("./ED/shape_descriptors/ED_compactness.txt");
+//    for (int l = 0; l < compactness_CCs.size(); l++)
+//        fout << compactness_CCs.at(l) << std::endl;
+//    fout.close();
 
 
     //3) Saving only those connected components within certain ranges...
@@ -573,22 +573,22 @@ void Chanalyzer :: Edelsbrunner(Rt& reg_triang, Fixed_alpha_shape_3& alpha_shape
 //            output_file_facets.close();
             
             
-            // Mouths of a specific connected component
-            int seed;
-            std::cout << INFO << "Finding mouths..." << RESET << std::endl;
-            std::vector<std::vector<int>> mouths_atoms_idx = {};
-            for (int ii=0; ii<flagged_tetrahedra.size(); ii++)
-                //if (flagged_tetrahedra[ii]==indices_sort[indices_sort.size()-1]+1)
-                if (flagged_tetrahedra[ii]==k)
-                {
-                    seed = ii;
-                    break;
-                }
-            std::cout << INFO << "Current seed is " << seed << std::endl;
-            std::cout << INFO << "Current flag is " << flagged_tetrahedra[seed] << std::endl;
-            write_flagged_tetrahedra2off(alpha_shape,flagged_tetrahedra, "ED/mouths/" + to_string((indices_sort.size()-1)-i) + "/CC.off", flagged_tetrahedra[seed]);
-            find_mouths(seed, alpha_shape, flagged_tetrahedra, int2tetrahedron, tetrahedron2int, int2vertex, vertex2int, tetrahedra2commonVertices, tetrahedra2commonVertexHandles, mouths_atoms_idx, "ED/mouths/" + to_string((indices_sort.size()-1)-i) + "/");
-            std::cout << std::endl;
+//            // Mouths of a specific connected component
+//            int seed;
+//            std::cout << INFO << "Finding mouths..." << RESET << std::endl;
+//            std::vector<std::vector<int>> mouths_atoms_idx = {};
+//            for (int ii=0; ii<flagged_tetrahedra.size(); ii++)
+//                //if (flagged_tetrahedra[ii]==indices_sort[indices_sort.size()-1]+1)
+//                if (flagged_tetrahedra[ii]==k)
+//                {
+//                    seed = ii;
+//                    break;
+//                }
+//            std::cout << INFO << "Current seed is " << seed << std::endl;
+//            std::cout << INFO << "Current flag is " << flagged_tetrahedra[seed] << std::endl;
+//            write_flagged_tetrahedra2off(alpha_shape,flagged_tetrahedra, "ED/mouths/" + to_string((indices_sort.size()-1)-i) + "/CC.off", flagged_tetrahedra[seed]);
+//            find_mouths(seed, alpha_shape, flagged_tetrahedra, int2tetrahedron, tetrahedron2int, int2vertex, vertex2int, tetrahedra2commonVertices, tetrahedra2commonVertexHandles, mouths_atoms_idx, "ED/mouths/" + to_string((indices_sort.size()-1)-i) + "/");
+//            std::cout << std::endl;
 
         }
     }
