@@ -12,10 +12,18 @@ import time
 
 # PARAMETERS
 K = 20      # k for k-nearest neighbour
-root            = "../A_tetrahedral_representation/example/IonicChannels/mscl/5ligand/frame.001/"
-input_folder    = root
-output_folder   = "./output/"
+conformation = 1
+root            = "../A_tetrahedral_representation/example/IonicChannels/mscl/5ligand"
 
+
+conformation = str(conformation).zfill(3)
+print(f"CONFORMATION {conformation}")
+root = root + "/frame." + conformation + "/"
+input_folder    = root
+output_folder   = "./output/frame." + conformation + "/"
+
+if not os.path.exists(output_folder):
+    os.mkdir(output_folder)
 
 
 # FUNCTION TO PROCESS CONNECTED COMPONENTS
