@@ -12,7 +12,7 @@ It requires the following modules:
 
 ### Input files
 
-- The skeleton of a channel expressed as a graph.
+- The skeleton of a channel expressed as a graph extracted by Step C1 of Chanalyzer.
 Each line represent an edge of the graph; e.g., line 2 55.1252 59.3976 76.5219 54.94 59.8402 76.9003 represents an edge whose vertices have coordinates (55.1252, 59.3976, 76.5219) and (54.94, 59.8402, 76.9003), respectively.
 
 
