@@ -14,6 +14,12 @@ A graphical abstract representing this pipeline is given in the following figure
 <img src="https://github.com/rea1991/Chanalyzer/blob/a6468725c264985e9578e1e4075020e0588edba7/chanalyzer-core.png" alt="Chanalyzer-core" width="400"/>
 </p>
 
+### Dataset behind the paper
+The datasets analyzed for this study and the configuration parameter file for NanoShaper calculation can be found in the Zenodo repository, DOI: 10.5281/zenodo.6509652.
+
+### Preprocessing tool
+A script to convert a trajectory from the multiple pdb format to the frames that compose it in xyzr format is provided in https://github.com/concept-lab/mpdb2xyzr.git.
+
 ### References
 [1]   A. Raffo, L. Gagliardi, U. Fugacci, L. Sagresti, S. Grandinetti, G. Brancato S. Biasotti, W. Rocchia. "Chanalyzer: a computational geometry approach for the analysis of protein channel shape and dynamics", *Frontiers in Molecular Biosciences*, 2022.
 [2]   S. Decherchi, W. Rocchia. "A general and Robust Ray-Casting-Based Algorithm for Triangulating Surfaces at the Nanoscale". *PLOS ONE* 8(4): e59744, 2013. 
