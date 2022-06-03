@@ -21,6 +21,6 @@ The datasets analyzed for this study and the configuration parameter file for Na
 A script to convert a trajectory from the multiple pdb format to the frames that compose it in xyzr format is provided in https://github.com/concept-lab/mpdb2xyzr.git.
 
 ### References
-[1]   A. Raffo, L. Gagliardi, U. Fugacci, L. Sagresti, S. Grandinetti, G. Brancato S. Biasotti, W. Rocchia. "Chanalyzer: a computational geometry approach for the analysis of protein channel shape and dynamics", *Frontiers in Molecular Biosciences*, 2022.
+[1]   A. Raffo, L. Gagliardi, U. Fugacci, L. Sagresti, S. Grandinetti, G. Brancato S. Biasotti, W. Rocchia. "Chanalyzer: a computational geometry approach for the analysis of protein channel shape and dynamics", under review at *Frontiers in Molecular Biosciences*, 2022.
 
 [2]   S. Decherchi, W. Rocchia. "A general and Robust Ray-Casting-Based Algorithm for Triangulating Surfaces at the Nanoscale". *PLOS ONE* 8(4): e59744, 2013. 
