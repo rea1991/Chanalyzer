@@ -10,7 +10,7 @@ This repository contains the routines behind the paper [1]. The repository is or
 
 A graphical abstract representing this pipeline is given in the following figure (note that C1 and C2 are summarized as a single step C; similarly, D1 and D2 are summed up as step D):
 
-![Alt text](./chanalyzer-core.png?raw=true "Chanalyzer-core"  alt="drawing" width="200"/)
+![Alt text](./chanalyzer-core.png?raw=true "Chanalyzer-core" width="48")
 
 
 ### References
