@@ -1,4 +1,4 @@
-# Chanalyzer: computational geometry for the analysis of protein channel shape and dynamics
+# Chanalyzer: a computational geometry approach for the analysis of protein channel shape and dynamics
 
 This repository contains the routines behind the paper [1]. The repository is organized in four sub-folders:
 - Step A:  extraction of the tetrahedral representation of the channel.
