@@ -14,7 +14,7 @@ A graphical abstract representing this pipeline is given in the following figure
 <img src="https://github.com/rea1991/Chanalyzer/blob/a6468725c264985e9578e1e4075020e0588edba7/chanalyzer-core.png" alt="Chanalyzer-core" width="400"/>
 </p>
 
-### NEW RELEASE: main introduced features
+### NEW RELEASE: main introduced features (please read the relative pdf documentation)
 
 Updates can be roughly classified into three main contributions:
 - the introduction of a new step (Step E) aimed at providing new metrics for the retrieved channel and new visual representations of it;
