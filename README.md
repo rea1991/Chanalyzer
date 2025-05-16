@@ -18,8 +18,8 @@ A graphical abstract representing this pipeline is given in the following figure
 
 Updates can be roughly classified into three main contributions:
 - the introduction of a new step (Step E) aimed at providing new metrics for the retrieved channel and new visual representations of it;
-- a modified pipeline (including new steps and programs) to deal with occluded channels;
-- a modified pipeline (including new steps and programs) if a pathway is provided as input.
+- a modified pipeline (including new steps and programs) if a pathway is provided as input;
+- - a modified pipeline (including new steps and programs) to deal with occluded channels.
 
 Please check the README files of the corresponding folders to learn more.
 
