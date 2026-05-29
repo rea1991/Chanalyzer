@@ -16,6 +16,8 @@ A graphical abstract representing this pipeline is given in the following figure
 
 ### NEW RELEASE: main introduced features (please read the related PDF documentation)
 
+## The new updated release of Chanalyzer software is funded by the European Union - NextGenerationEU and by the Ministry of University and Research (MUR), National Recovery and Resilience Plan (NRRP), Mission 4, Component 2, Investment 1.5, projects “RAISE - Robotics and AI for Socio-economic Empowerment” (ECS00000035).
+
 Updates can be roughly classified into three main contributions:
 - the introduction of a new step (Step E) aimed at providing new metrics for the retrieved channel and new visual representations of it;
 - a modified pipeline (including new steps and programs) if a pathway is provided as input;
